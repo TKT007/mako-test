@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/github-update.js": {
+    "ai/github-update.js": {
       "maxDuration": 10
     }
   },
