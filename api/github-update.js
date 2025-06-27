@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     // Get current file from GitHub
     console.log('Fetching from GitHub...');
     const getResponse = await fetch(
-      'https://api.github.com/repos/ddgoncalves27/teste/contents/index.html?ref=main',
+      'https://api.github.com/repos/TKT007/mako-test/contents/index.html?ref=main',
       {
         headers: {
           'Authorization': `token ${token}`, // Try 'token' format instead of 'Bearer'
@@ -75,7 +75,7 @@ export default async function handler(req, res) {
 
     // Update file on GitHub
     const updateResponse = await fetch(
-      'https://api.github.com/repos/ddgoncalves27/teste/contents/index.html',
+      'https://api.github.com/repos/TKT007/mako-test/contents/index.html',
       {
         method: 'PUT',
         headers: {
